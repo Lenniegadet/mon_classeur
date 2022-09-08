@@ -2,5 +2,5 @@
 
 - Algoritme
 - Binaire
-- Fondements théorique de l'informatique
+- Fondements théoriques de l'informatique
 - Atomes d'informations
