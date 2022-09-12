@@ -22,10 +22,15 @@ Ex: nom : 'world'   ligne = '-'  for caractere in nom:
                                     print(ligne + nom)
                                     
   --> 
+  
   -world
+  
   -world
+  
   -world
+  
   -world
+  
   -world
   
   
