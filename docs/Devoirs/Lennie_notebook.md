@@ -33,5 +33,41 @@ Ex: nom : 'world'   ligne = '-'  for caractere in nom:
   
   -world
   
+## Construction de chaines :
   
+Ex: nom = 'World'    ligne = ' '     for caractere in nom:
+                                        ligne = ligne + caractere
+                                        print(ligne)
+-->
+
+  W
+  
+  Wo
+  
+  Wor
+  
+  Worl
+  
+  World
+  
+On peut aussi modifier le script pour que les caractères soient inversés :
+  Il suffit d´inverser caractere et ligne dans <ligne = ligne + caractere> ce qui donnerais <ligne = caractere + ligne>
+  
+Ex: nom = 'World'    ligne = ' '     for caractere in nom:
+                                        ligne = caractere + ligne
+                                        print(ligne)
+-->
+  W
+  
+  oW
+  
+  roW
+  
+  lroW
+  
+  dlroW
+
+Au passage, le caractere _ dans une boucle tel que for caractere in ...: est égale à caractere, on peut donc le remplacer par _. Cela ne change pas l'exécution du script, mais est utile au lecteur.
+
+
 
