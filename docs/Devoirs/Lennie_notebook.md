@@ -5,7 +5,8 @@ Ex:
 
 'hello'
 
-mot = hello   guillemets = indique que c´est une chaine de caractères
+mot = hello   
+guillemets = indique que c´est une chaine de caractères
 
 Possibilité d´additionner des chaines
 Ex: 
