@@ -1,11 +1,13 @@
 # Mon Notebook
 ## Chaines :
 
-Ex: 'hello'
+Ex: 
+'hello'
 mot = hello   guillemets = indique que c´est une chaine de caractères
 
 Possibilité d´additionner des chaines
-Ex: 'hello' + 'world'
+Ex: 
+'hello' + 'world'
 
 ## Variables :
 
