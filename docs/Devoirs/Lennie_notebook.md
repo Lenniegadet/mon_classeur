@@ -170,5 +170,69 @@ print(phrase)
   
 car ravi est faux, l´ordinateur n´execute pas la boucle if.
   
+## Structures imbriquées :
   
+Les structures de contrôle for ou conditionnelles if comportent un bloc d'instructions internes.
+  
+Ex d'une boucle for à l'intérieur d'une structure if :
+  
+phrase = 'Hello World'
+  
+ravi = True
+
+if ravi:
+  
+    nouvelle_phrase = ''
+  
+    for caractere in phrase:
+  
+        nouvelle_phrase += caractere + '!'
+  
+    phrase = nouvelle_phrase
+    
+print(phrase)
+  
+-->
+  
+  H!e!l!l!o! !W!o!r!l!d!
+  
+Il est aussi possible de créer une structure if à l´intérieur d´un boucle for.
+  
+## If et else :
+  
+Le bloc else est comme un « ou sinon ... » : si la condition du if n'est pas respectée, alors les instructions dans le bloc else seront exécutées. Que la condition soit vérifiée ou non, l'un ou l'autre des deux blocs sera obligatoirement exécuté.
+  
+Ex:
+  
+condition = True
+  
+if condition:
+  
+    print('Oui')
+  
+else:
+  
+    print('Non')
+  
+--> 
+  
+  Oui
+  
+car le bloc if est vérifié. Mais si on change True par False comme ceci :
+  
+condition = False
+  
+if condition:
+  
+    print('Oui')
+  
+else:
+  
+    print('Non')
+  
+-->
+  
+  Non
+  
+On peut donc voir que le programme execute le bloc else car le bloc if n´est pas vérifié.
   
