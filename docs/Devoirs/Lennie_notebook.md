@@ -2,16 +2,20 @@
 ## Chaines :
 
 Ex: 
+
 'hello'
+
 mot = hello   guillemets = indique que c´est une chaine de caractères
 
 Possibilité d´additionner des chaines
 Ex: 
+
 'hello' + 'world'
 
 ## Variables :
 
 Ex: 
+
 mot = 'hello'  
 
 --> 
@@ -22,6 +26,7 @@ mot = 'hello'
   
   
 Ex: 
+
 soleil 
 
 --> 
@@ -30,6 +35,7 @@ soleil
   car la varaible soleil n´est pas définie, Python cherche sa valeur
 
 Ex:
+
 mot = 'hello'  
 votre_nom = Lennie  
 print(mot + ' ' + votre_nom) 
@@ -41,6 +47,7 @@ print(mot + ' ' + votre_nom)
 
 for <variable> in <itérable> : <code à repéter>
 Ex: 
+  
 nom : 'world'   
 ligne = '-'  
 for caractere in nom: 
@@ -61,6 +68,7 @@ for caractere in nom:
 ## Construction de chaines :
   
 Ex: 
+  
 nom = 'World'    
 ligne = ' '    
 for caractere in nom:
@@ -83,6 +91,7 @@ On peut aussi modifier le script pour que les caractères soient inversés :
   Il suffit d´inverser caractere et ligne dans <ligne = ligne + caractere> ce qui donnerais <ligne = caractere + ligne>
   
 Ex: 
+  
 nom = 'World'    
 ligne = ' '    
 for caractere in nom:
