@@ -39,7 +39,9 @@ soleil
 Ex:
 
 mot = 'hello'  
+
 votre_nom = Lennie  
+
 print(mot + ' ' + votre_nom) 
 
 --> 
@@ -51,8 +53,11 @@ for <variable> in <itérable> : <code à repéter>
 Ex: 
   
 nom : 'world'   
+  
 ligne = '-'  
+  
 for caractere in nom: 
+  
    print(ligne + nom)
                                     
   --> 
@@ -71,10 +76,14 @@ for caractere in nom:
   
 Ex: 
   
-nom = 'World'    
+nom = 'World'   
+  
 ligne = ' '    
+  
 for caractere in nom:
+  
     ligne = ligne + caractere
+  
     print(ligne)
   
 -->
@@ -94,10 +103,14 @@ On peut aussi modifier le script pour que les caractères soient inversés :
   
 Ex: 
   
-nom = 'World'    
-ligne = ' '    
+nom = 'World'   
+  
+ligne = ' '   
+  
 for caractere in nom:
+  
     ligne = caractere + ligne
+  
     print(ligne)
   
 -->
@@ -124,9 +137,13 @@ Si c'est le cas, il exécute le corps : un bloc d'instructions. Sinon, il l'évi
 Ex:
   
 phrase = 'Hello World'
+  
 ravi = True
+  
 if ravi:
+  
     phrase += '!'
+  
 print(phrase)
   
 --> 
@@ -138,9 +155,13 @@ car ravi est vrai(True), mais si on change True en False comme ceci:
 Ex:
   
 phrase = 'Hello World'
+  
 ravi = True
+  
 if ravi:
+  
     phrase += '!'
+  
 print(phrase)
   
 -->
@@ -148,5 +169,6 @@ print(phrase)
   Hello World
   
 car ravi est faux, l´ordinateur n´execute pas la boucle if.
+  
   
   
