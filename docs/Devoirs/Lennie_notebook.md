@@ -9,6 +9,7 @@ mot = hello
 guillemets = indique que c´est une chaine de caractères
 
 Possibilité d´additionner des chaines
+
 Ex: 
 
 'hello' + 'world'
