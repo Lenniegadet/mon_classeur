@@ -114,5 +114,39 @@ for caractere in nom:
 
 Au passage, le caractere _ dans une boucle tel que for caractere in ...: est égale à caractere, on peut donc le remplacer par _. Cela ne change pas l'exécution du script, mais est utile au lecteur.
 
-
-
+## Structures conditionnellles :
+  
+Les deux seuls booléens: True et False.
+Les booléens sont généralement utilisés dans des structures if, quand l'ordinateur voit if <condition>:, il vérifie si <condition> est vraie (True). 
+  
+Si c'est le cas, il exécute le corps : un bloc d'instructions. Sinon, il l'évite et passe à la suite du script.
+  
+Ex:
+  
+phrase = 'Hello World'
+ravi = True
+if ravi:
+    phrase += '!'
+print(phrase)
+  
+--> 
+  
+  Hello World!
+  
+car ravi est vrai(True), mais si on change True en False comme ceci:
+  
+Ex:
+  
+phrase = 'Hello World'
+ravi = True
+if ravi:
+    phrase += '!'
+print(phrase)
+  
+-->
+  
+  Hello World
+  
+car ravi est faux, l´ordinateur n´execute pas la boucle if.
+  
+  
