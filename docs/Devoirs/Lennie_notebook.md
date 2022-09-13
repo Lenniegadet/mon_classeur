@@ -9,17 +9,40 @@ Ex: 'hello' + 'world'
 
 ## Variables :
 
-Ex: mot = 'hello'   mot --> hello   car la variable mot est définie
-soleil --> erreur   car la varaible soleil n´est pas définie, Python cherche sa valeur
+Ex: 
+mot = 'hello'  
 
-Ex: mot = 'hello'  votre_nom = Lennie 
-print(mot + ' ' + votre_nom) --> hello Lennie
+--> 
+  hello   
+  
+  
+  car la variable mot est définie
+  
+  
+Ex: 
+soleil 
+
+--> 
+  erreur   
+  
+  car la varaible soleil n´est pas définie, Python cherche sa valeur
+
+Ex:
+mot = 'hello'  
+votre_nom = Lennie  
+print(mot + ' ' + votre_nom) 
+
+--> 
+  hello Lennie
 
 ## Boucle for :
 
 for <variable> in <itérable> : <code à repéter>
-Ex: nom : 'world'   ligne = '-'  for caractere in nom: 
-                                    print(ligne + nom)
+Ex: 
+nom : 'world'   
+ligne = '-'  
+for caractere in nom: 
+   print(ligne + nom)
                                     
   --> 
   
@@ -35,9 +58,13 @@ Ex: nom : 'world'   ligne = '-'  for caractere in nom:
   
 ## Construction de chaines :
   
-Ex: nom = 'World'    ligne = ' '     for caractere in nom:
-                                        ligne = ligne + caractere
-                                        print(ligne)
+Ex: 
+nom = 'World'    
+ligne = ' '    
+for caractere in nom:
+    ligne = ligne + caractere
+    print(ligne)
+  
 -->
 
   W
@@ -53,10 +80,15 @@ Ex: nom = 'World'    ligne = ' '     for caractere in nom:
 On peut aussi modifier le script pour que les caractères soient inversés :
   Il suffit d´inverser caractere et ligne dans <ligne = ligne + caractere> ce qui donnerais <ligne = caractere + ligne>
   
-Ex: nom = 'World'    ligne = ' '     for caractere in nom:
-                                        ligne = caractere + ligne
-                                        print(ligne)
+Ex: 
+nom = 'World'    
+ligne = ' '    
+for caractere in nom:
+    ligne = caractere + ligne
+    print(ligne)
+  
 -->
+  
   W
   
   oW
