@@ -43,4 +43,10 @@ Ex: color: green; / color: rgb(0,127,23); \
 background-color:; : permet de changer la couleur du fond \
 Ex: background-color: green; / background-color: rgb(0,127,23);
 
+## Séléction par identifiant
 
+Dans la balise que vous souhaitez identifer, il faut y écrire id="{insérez un nom pour le paragraphe}" 
+Puis écrivez #{identifiant de la balise} pour l'identifier lors de la mise en forme
+
+Pour identifier plusieurs paragraphes, il faut écrire class="{insérez un nom en commun à tout les paragraphes}"
+Puis écrivez .{identifiant des paragraphes}
