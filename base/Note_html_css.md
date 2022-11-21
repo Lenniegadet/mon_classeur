@@ -45,7 +45,9 @@ Ex: background-color: green; / background-color: rgb(0,127,23);
 
 ## Séléction par identifiant
 
-Dans la balise que vous souhaitez identifer, il faut y écrire id="{insérez un nom pour la balise}" 
-Puis écrivez #{nom'de la balise} pour l'identifier lors de la mise en forme
+Dans la balise que vous souhaitez identifer, il faut y écrire id="{insérez un identifiant}" .
+Puis écrivez #{identifiant} pour l'identifier lors de la mise en forme.
 
-Pour identifier plusieurs paragraphes en mê
+Pour identifier plusieurs paragraphes en même temps, il faut utiliser class="{insérez un identifiant}" dans chaques balises.
+Puis écrivez .{identifiant} pour l'identifier.
+
